@@ -1,0 +1,131 @@
+{
+    margin: 0;
+    padding: 0 ;
+}
+:root{
+    --navbar height: 30px;
+    body{
+        margin: 0px 100px;
+        background-color: peachpuff;
+    }
+#navbar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+        flex-wrap: wrap;
+    }
+logo h1{
+    font-weight: 900;
+    font-family:' sans-serif;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+
+}
+ul li{
+    margin right: 30px ;
+}
+ul li a{
+    margin: 30px 30px;
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 17px;
+    border:1px orange ;
+    border-radius: 10px;
+    transition-property: all;
+    
+  
+}
+ul :active  {
+    height: 25px;;
+    width:80px ;
+    background: transparent;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+Signin{
+    border: none;
+    background: transparent;
+
+}
+Signup{
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: peachpuff;
+}
+content-info h2{
+    padding-top: 20px;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+footer{
+padding: 30px 0;
+background-color: #f4b8a5;
+}
+footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+h4 ::before{
+content: ;
+bottom:-10px ;
+height: 2px;
+background-color:#rgb(167, 76, 49)
+left:0;
+position: absolute;
+box-sizing: border-box;
+width: 50px;
+
+}
+@media screen( max: width 767px;){
+    footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media screen( max: width 574px;){
+    footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
